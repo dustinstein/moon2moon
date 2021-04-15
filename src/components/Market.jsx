@@ -9,7 +9,8 @@ const useStyles = makeStyles(theme => ({
   root: {
     backgroundColor: theme.palette.background.paper,
     height: 'calc(99vh)',
-    overflow: 'hidden'
+    overflow: 'hidden',
+    padding: theme.spacing(2)
   },
 }));
 
