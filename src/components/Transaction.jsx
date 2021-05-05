@@ -20,10 +20,13 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.paper,
   },
   buy: {
-    boxShadow: '0px 8px 10px -5px rgb(76 175 80 / 20%), 0px 16px 24px 2px rgb(76 175 80 / 14%), 0px 6px 30px 5px rgb(76 175 80 / 12%)'
+    boxShadow: '0px 8px 10px -5px rgb(0 255 0 / 20%), 0px 16px 24px 2px rgb(0 255 0 / 14%), 0px 6px 30px 5px rgb(0 255 0 / 12%)'
   },
   sell: {
-    boxShadow: '0px 8px 10px -5px rgb(245 0 87 / 20%), 0px 16px 24px 2px rgb(245 0 87 / 14%), 0px 6px 30px 5px rgb(245 0 87 / 12%)'
+    boxShadow:
+    '0px 8px 10px -5px rgb(245 0 87 / 20%),'
+    +'0px 16px 24px 2px rgb(245 0 87 / 14%),'
+    +'0px 6px 30px 5px rgb(245 0 87 / 12%)'
   },
   header: {
     color: theme.palette.primary.main,

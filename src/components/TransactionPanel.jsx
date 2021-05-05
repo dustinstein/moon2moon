@@ -39,12 +39,14 @@ const TransactionPanel = ({
           <Button
             onClick={() => setType('limit')}
             variant={type ==='limit' && 'contained'}
+            disableElevation
           >
             Limit
           </Button>
           <Button
             onClick={() => setType('market')}
             variant={type ==='market' && 'contained'}
+            disableElevation
           >
             Market
           </Button>

@@ -26,12 +26,20 @@ const App = () => {
           type: prefersDarkMode ? 'dark' : 'light',
           primary: {
             light: '#6fbf73',
-            main: '#4caf50',
+            main: '#1F1',
             dark: '#357a38',
             contrastText: '#fff'
+          },
+          background: {
+            paper: prefersDarkMode ? '#000' : '#fff'
           }
         },
         overrides: {
+          MuiListItemText: {
+            primary: {
+              color: '#1F1'
+            }
+          },
           MuiButton: {
             text: {
         background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
